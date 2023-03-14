@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+body{
+    font-family: 'EB Garamond', serif;  /*Tipografias*/
+}
+span{
+    color: #ce6b6b;
+}
+nav {
+    position: fixed; /* fija la barra de navegación en la pantalla */
+    top: 0; /* distancia desde la parte superior de la pantalla */
+    left: 0; /* distancia desde el borde izquierdo de la pantalla */
+    height: 100%; /* altura de la barra de navegación */
+    width: 200px; /* ancho de la barra de navegación */
+    background-color: #ce6b6b; /* color de fondo de la barra de navegación */
+    padding: 20px; /* espacio interno de la barra de navegación */
+}
+
+nav ul {
+    list-style: none; /* quita los puntos de la lista */
+    margin: 0; /* quita el margen por defecto de la lista */
+    padding: 0; /* quita el espacio interno por defecto de la lista */
+}
+
+nav li {
+    margin-bottom: 40px; /* separación entre cada elemento de la lista */
+    font-size: 20px
+}
+
+nav a {
+    display: block; /* convierte el enlace en un bloque para ocupar todo el ancho disponible */
+    text-decoration: none; /* quita la subraya de los enlaces */
+    color: #000000; /* color del texto de los enlaces */
+    font-weight: bold; /* negrita en los enlaces */
+}
+
+nav a:hover {
+    color: #fff; /* color del texto de los enlaces cuando se pasa el mouse por encima */
+    background-color: #8b3232; /* color de fondo de los enlaces cuando se pasa el mouse por encima */
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+section{
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 2.0;
+    background-color: #fcfcfc;
+    padding: 1%;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
